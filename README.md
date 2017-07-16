@@ -1,6 +1,6 @@
 Das Core staging tree 0.12.1
 
-[https://bitcointalk.org/index.php?topic=1988059.0](Official Forum).
+[Official Forum](https://bitcointalk.org/index.php?topic=1988059.0).
 ===============================
 
 
