@@ -124,6 +124,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("node", "35.184.44.214"));
 		vSeeds.push_back(CDNSSeedData("node2", "154.16.7.191"));
+		vSeeds.push_back(CDNSSeedData("lpool.name", "163.172.104.9"));
 
         // Das addresses start with 'D'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
