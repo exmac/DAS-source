@@ -2776,8 +2776,8 @@
         <translation>SOCKS5 プロキシ経由で接続する</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Bitcoin Core 開発者</translation>
+        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-2017 Bitcoin Core 開発者</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

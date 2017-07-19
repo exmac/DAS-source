@@ -4832,13 +4832,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-2017 The Bitcoin Core Developers</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Das Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Das Core Developers</translation>
+        <source>Copyright (C) 2017 The Das Core Developers</source>
+        <translation>Copyright (C) 2017 The Das Core Developers</translation>
     </message>
     <message>
         <location line="+2"/>

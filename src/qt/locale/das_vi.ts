@@ -3795,12 +3795,12 @@ ví dụ: alertnotify=echo %%s | mail -s "Das Alert" admin@foo.com
         <translation>Kết nối tới KeePassHttp trên cổng &lt;port&gt; (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
+        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
+        <translation>Bản quyền (C) 2009-2017 bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Das Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Das Core</translation>
+        <source>Copyright (C) 2017 The Das Core Developers</source>
+        <translation>Bản quyền (C) 2017 bởi Nhóm phát triển Das Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

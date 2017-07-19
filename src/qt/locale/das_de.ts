@@ -3795,12 +3795,12 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"Das Alert\" admin@foo.com</transl
         <translation>Mit KeePassHttp auf &lt;port&gt; verbinden (Standard: %u)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Die "Bitcoin Core"-Entwickler</translation>
+        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-2017 Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Das Core Developers</source>
-        <translation>Copyright (C) 2014-%i Die "Das Core"-Entwickler</translation>
+        <source>Copyright (C) 2017 The Das Core Developers</source>
+        <translation>Copyright (C) 2017 Die "Das Core"-Entwickler</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

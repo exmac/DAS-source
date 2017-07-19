@@ -3526,11 +3526,11 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>透過 SOCKS5 代理伺服器連線</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
         <translation>版權為位元幣核心開發人員自西元 2009 至 %i 年起所有</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Das Core Developers</source>
+        <source>Copyright (C) 2017 The Das Core Developers</source>
         <translation>版權為達世幣核心開發人員自西元 2014 至 %i 年起所有</translation>
     </message>
     <message>
