@@ -3787,12 +3787,12 @@ for example: alertnotify=echo %%s | mail -s "Das Alert" admin@foo.com
         <translation>Свързване към KeePassHttp през порт &lt;port&gt; (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
-        <translation>Запазени права (C) 2009-2017 Bitcoin Core разработчици</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017 The Das Core Developers</source>
-        <translation>Запазени права (C) 2017 Das Core разработчиците</translation>
+        <source>Copyright (C) 2014-%i The Das Core Developers</source>
+        <translation>Запазени права (C) 2014-%i Das Core разработчиците</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

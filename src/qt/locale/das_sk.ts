@@ -3795,12 +3795,12 @@ napríklad: alertnotify=echo %%s | mail -s "Das Upozornenie" admin@foo.com
         <translation>Pripojiť ku KeePassHttp na porte &lt;port&gt; (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
-        <translation>Autorské práva (C) 2009-2017 Vývojári jadra Bitcoin</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017 The Das Core Developers</source>
-        <translation>Autorské práva (C) 2017 Vývojári jadra Das</translation>
+        <source>Copyright (C) 2014-%i The Das Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra Das</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

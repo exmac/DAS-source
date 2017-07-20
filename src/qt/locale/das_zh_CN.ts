@@ -3649,12 +3649,12 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>连接至 KeePassHttp 端口 &lt;port&gt; (默认: %u)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
-        <translation>版权(C) 2009-2017 The Bitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>版权(C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017 The Das Core Developers</source>
-        <translation>版权 (C) 2017 The Das Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Das Core Developers</source>
+        <translation>版权 (C) 2014-%i The Das Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

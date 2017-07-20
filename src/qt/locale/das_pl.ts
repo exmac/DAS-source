@@ -3795,12 +3795,12 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Podłącz do KeePassHttp na porcie &lt;port&gt; (domyślny: %u)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
-        <translation>Prawo autorskie (c) 2009-2017 deweloperzy Bitcoin</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Prawo autorskie (c) 2009-%i deweloperzy Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017 The Das Core Developers</source>
-        <translation>Prawa autorskie (C) 2017 deweloperzy Das</translation>
+        <source>Copyright (C) 2014-%i The Das Core Developers</source>
+        <translation>Prawa autorskie (C) 2014-%i deweloperzy Das</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

@@ -3796,12 +3796,12 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Das" admin@foo.com
         <translation>Connecter à KeePassHttp sur le port &lt;port&gt; (par défaut: %u)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-2017 The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-2017 The Bitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017 The Das Core Developers</source>
-        <translation>Copyright (C) 2017 The Das Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Das Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Das Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
