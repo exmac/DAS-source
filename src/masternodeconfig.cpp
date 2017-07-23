@@ -1,7 +1,8 @@
 
-#include "netbase.h"
+#include "net.h"
 #include "masternodeconfig.h"
 #include "util.h"
+#include "ui_interface.h"
 #include "chainparams.h"
 
 #include <boost/filesystem.hpp>
@@ -57,26 +58,16 @@ bool CMasternodeConfig::read(std::string& strErr) {
             }
         }
 
-        int port = 0;
-        std::string hostname = "";
-        SplitHostPort(ip, port, hostname);
-        if(port == 0 || hostname == "") {
-            strErr = _("Failed to parse host:port string") + "\n"+
-                    strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"";
-            streamConfig.close();
-            return false;
-        }
         int mainnetDefaultPort = Params(CBaseChainParams::MAIN).GetDefaultPort();
         if(Params().NetworkIDString() == CBaseChainParams::MAIN) {
-            if(port != mainnetDefaultPort) {
+            if(CService(ip).GetPort() != mainnetDefaultPort) {
                 strErr = _("Invalid port detected in masternode.conf") + "\n" +
-                        strprintf(_("Port: %d"), port) + "\n" +
                         strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
                         strprintf(_("(must be %d for mainnet)"), mainnetDefaultPort);
                 streamConfig.close();
                 return false;
             }
-        } else if(port == mainnetDefaultPort) {
+        } else if(CService(ip).GetPort() == mainnetDefaultPort) {
             strErr = _("Invalid port detected in masternode.conf") + "\n" +
                     strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
                     strprintf(_("(%d could be used only on mainnet)"), mainnetDefaultPort);
